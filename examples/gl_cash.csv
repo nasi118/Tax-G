@@ -1,0 +1,15 @@
+id,date,amount,reference,description
+GL-1000,2026-08-15,300.00,INV-480,Customer receipt Delta (no bank support)
+GL-1001,2026-09-02,15000.00,INV-501,Customer receipt Acme
+GL-1002,2026-09-05,-2500.00,PAY-301,Vendor payment Beta Supplies
+GL-1003,2026-09-10,1200.00,,Customer receipt Gamma
+GL-1004,2026-09-12,4000.00,INV-510,Customer receipt Omega part 1
+GL-1005,2026-09-12,3000.00,INV-510,Customer receipt Omega part 2
+GL-1006,2026-09-15,-850.00,PAY-305,Vendor payment Kappa Ltd
+GL-1007,2026-09-15,-850.00,PAY-305,Vendor payment Kappa Ltd
+GL-1008,2026-09-18,-1250.00,PAY-307,Vendor refund Lambda
+GL-1009,2026-09-20,5420.00,INV-520,Customer receipt Sigma
+GL-1010,2026-09-22,3100.00,INV-525,Customer receipt Tau (EUR)
+GL-1011,2026-09-24,8000.00,INV-530,Customer receipt Upsilon
+GL-1012,2026-09-29,22000.00,INV-540,Customer receipt Phi
+GL-1013,2026-09-30,-12000.00,JE-ACCR-77,Manual accrual reclass
