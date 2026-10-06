@@ -1,0 +1,27 @@
+{
+  "columns": {
+    "id": "id",
+    "date": "date",
+    "amount": "amount",
+    "reference": "reference",
+    "description": "description"
+  },
+  "matching": {
+    "date_tolerance_days": 3,
+    "timing_window_days": 10,
+    "rounding_tolerance": "1.00"
+  },
+  "routing": {
+    "tiers": [
+      {"role": "Preparer",   "max_abs_impact": "100",   "sla_days": 2},
+      {"role": "Reviewer",   "max_abs_impact": "10000", "sla_days": 3},
+      {"role": "Controller", "max_abs_impact": null,    "sla_days": 5}
+    ],
+    "min_role_by_type": {
+      "duplicate_posting": "Reviewer",
+      "sign_flip": "Reviewer",
+      "missing_in_subledger": "Reviewer"
+    },
+    "aging_escalation_days": 30
+  }
+}
